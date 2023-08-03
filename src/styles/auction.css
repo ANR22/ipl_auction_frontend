@@ -1,0 +1,133 @@
+.auction-container {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 900px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: #413f3f;
+  color: #ffffff;
+}
+
+.team-name {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.center-text {
+  margin: auto;
+}
+.timer {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  width: 100px;
+  padding: 5px;
+  display: block;
+  margin-left: 86%;
+}
+.player-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #212121; */
+  /* color: #fff; */
+  padding: 20px;
+  column-gap: 30px;
+}
+
+.player-info {
+  flex: 1;
+  margin-bottom: 10px;
+  background-color: #212121;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.player-info-item {
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.player-label {
+  font-weight: bold;
+}
+
+.player-value {
+}
+.player-img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.player-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.current-bid-info {
+  flex: 1;
+  margin-bottom: 10px;
+  background-color: #212121;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.current-bid-info-item {
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.current-bid-label {
+  font-weight: bold;
+}
+
+.current-bid-value {
+}
+
+.button {
+  display: block;
+  margin: 10px auto;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  /* display: inline-block; */
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 20px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover,
+.button:active {
+  background-color: white;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button:active {
+  opacity: 0.5;
+}
